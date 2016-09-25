@@ -4,7 +4,7 @@ Solid. A Bootstrap theme for Jekyll.
 
 This is a [Jekyll](http://jekyllrb.com/) port of the [Solid theme](http://www.blacktie.co/2014/05/solid-multipurpose-theme/) by [blacktie.co](http://www.blacktie.co/). Visit the [live demo](https://st4ple.github.io/solid-jekyll/) for a preview. 
 
-##Usage
+## Usage
 This theme can be customized, built and published straight from GitHub, thanks to [GitHub Pages](https://pages.github.com/). A local installation of Jekyll isn't even necessary!
 
 [Fork this repository](https://github.com/st4ple/solid-jekyll/fork) to get started. 
