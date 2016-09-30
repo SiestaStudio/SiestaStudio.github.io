@@ -14,6 +14,7 @@ excerpt_separator: <!--more--> #use this in posts to define how long the excerpt
 # Sass minification enabled
 sass:
   style: compressed
+  sass_dir: assets/stylesheet/sass
 
 ### CONTACT SETTINGS ###
 
