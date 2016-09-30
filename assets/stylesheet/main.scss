@@ -7,12 +7,12 @@
  */
 
 $site-font-family-serif: Crimson Text;
-$site-font-family-sans-serif: Montserrat;
+$site-font-family-sans-serif: Rubik;
 $site-font-family-fixed: Inconsolata;
 
 $site-font-serif: $site-font-family-serif, serif;
 $site-font-sans-serif: $site-font-family-sans-serif, sans-serif;
-$site-font-fixed: $site-font-family-fixed;
+$site-font-fixed: $site-font-family-fixed, monospace;
 
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400);
 @import url(https://fonts.googleapis.com/css?family=#{$site-font-family-sans-serif}:300,500);
@@ -100,7 +100,7 @@ h5, h6 {
 p {
         padding: 0;
         margin-bottom: 25px;
-        font-family: $site-font-sans-serif;
+        font-family: $site-font-serif;
         font-weight: 400;
         color: $site-colors-secondary;
         margin-top: 10px;
@@ -233,7 +233,9 @@ a:focus {
   background-color: $site-colors-secondary;
   border-color: $site-colors-secondary;
   margin: 4px;
+  font-family: $site-font-sans-serif;
 }
+
 .btn-theme:hover,
 .btn-theme:focus,
 .btn-theme:active,
