@@ -1,0 +1,24 @@
+/* Footer */
+#footerwrap {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background: $site-colors-secondary;
+}
+
+#footerwrap p {
+        color: $site-colors-footer-content;
+}
+
+#footerwrap h4 {
+        color: $site-colors-footer-heading;
+}
+
+#footerwrap i {
+        font-size: 30px;
+        color: $site-colors-footer-content;
+        padding-right: 25px;
+}
+
+#footerwrap i:hover {
+        color: $site-colors-primary;
+}
