@@ -10,10 +10,13 @@
 @import url("vendor/prettyPhoto.css") screen;
 @import url("vendor/hoverex-all.css") screen;
 @import url("font-awesome.min.css");
+
 @import "site_fonts";
 @import "site_colors";
+
 @import "site_base";
-@import "bootstrap_overrides";
+@import "navbar";
+@import "buttons";
 @import "header";
 @import "carousel";
 @import "portfolio";

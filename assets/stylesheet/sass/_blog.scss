@@ -1,4 +1,26 @@
 /* Blog Page */
+.mtb {
+        margin-top: 80px;
+        margin-bottom: 80px;
+}
+
+.mb {
+        margin-bottom: 60px;
+}
+
+.mt {
+        margin-top: 60px;
+}
+
+.hline {
+        border-bottom: 2px solid $site-colors-secondary;
+}
+
+.hline-w {
+        border-bottom: 2px solid #ffffff;
+        margin-bottom: 25px;
+}
+
 .popular-posts {
         margin: 0px;
         padding-left: 0px;
