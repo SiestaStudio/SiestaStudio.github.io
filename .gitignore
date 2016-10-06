@@ -1,4 +1,7 @@
 _site
+.sass-cache
 .emacs_backups
 \#*\#
+*~
+.DS_Store
 .jekyll-metadata

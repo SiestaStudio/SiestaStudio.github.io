@@ -1,0 +1,49 @@
+/* Navigation bar and dropdown menu overrides */
+
+.navbar {
+        min-height: 24px;
+        padding-top: 10px;
+        margin-bottom: 0px;
+}
+
+.navbar-brand {
+        font-family: $site-font-sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+}
+
+.navbar-header .navbar-brand {
+        color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+        font-family: $site-font-sans-serif;
+        color: white;
+        font-weight: 500;
+        font-size: 12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+        color: $site-colors-primary;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        color: $site-colors-primary;
+        background-color: transparent;
+}
+
+.navbar-default {
+        background-color: $site-colors-secondary;
+        border-color: transparent;
+}
+
+
+.dropdown-menu {
+        background: $site-colors-secondary;
+}
+
+.dropdown-menu > li > a {
+        color: white;
+        font-weight: 700;
+        font-size: 12px;
+}

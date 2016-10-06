@@ -1,0 +1,14 @@
+/*
+Alternative fonts:
+*/
+$site-font-family-serif: Crimson Text;
+$site-font-family-sans-serif: Rubik;
+$site-font-family-fixed: Inconsolata;
+
+$site-font-serif: $site-font-family-serif, serif;
+$site-font-sans-serif: $site-font-family-sans-serif, sans-serif;
+$site-font-fixed: $site-font-family-fixed, monospace;
+
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i);
+@import url(https://fonts.googleapis.com/css?family=#{$site-font-family-sans-serif}:300,900);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400);
