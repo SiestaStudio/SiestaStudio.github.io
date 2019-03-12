@@ -3,14 +3,19 @@
 // Custom Fonts
 
 @font-face {
-    font-family: "Rubik";
-    src: url("/assets/fonts/rubik/Rubik-Regular.ttf");
+    font-family: "HKGrotesk";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assets/fonts/hk-grotesk/HKGrotesk-Bold.otf");
 }
 
 @font-face {
     font-family: "HKGrotesk";
+    font-style: normal;
+    font-weight: 400;
     src: url("/assets/fonts/hk-grotesk/HKGrotesk-Regular.otf");
 }
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables",

@@ -19,7 +19,7 @@
 
 .nav-item.active {
     font-weight: bold;
-    
+
     &::after {
         @extend .link-after;
         width: 100%!important;
@@ -27,6 +27,7 @@
 }
 
 .navbar-brand {
+    font-weight: bold;
     margin-bottom: -14px;
     &::after {
         margin-top: -.25em;
