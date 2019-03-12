@@ -7,13 +7,7 @@ weight: 5
 
 # **About portfolYOU** <small class="text-muted">{{ site.github.latest_release.tag_name }}</small>
 
-<p>
-  <a class="github-button" href="{{ site.github.repository_url }}" data-icon="octicon-star" data-show-count="true" aria-label="Star YoussefRaafatNasry/portfolYOU on GitHub">Star</a>
-  <a class="github-button" href="{{ site.github.repository_url }}/fork" data-icon="octicon-repo-forked" data-show-count="true" aria-label="Fork YoussefRaafatNasry/portfolYOU on GitHub">Fork</a>
-  <a class="github-button" href="{{ site.github.zip_url }}" data-icon="octicon-cloud-download" aria-label="Download YoussefRaafatNasry/portfolYOU on GitHub">Download</a><br>
-</p>
-
-portfolYOU is a free modern open-source Jekyll portfolio and blogging theme that works with GitHub Pages. 
+portfolYOU is a free modern open-source Jekyll portfolio and blogging theme that works with GitHub Pages.
 
 ## Features
 
@@ -128,7 +122,7 @@ portfolYOU's sections are **independent**, you can remove any section upon your 
 
 ## Customization
 
-When using portfolYOU as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, simply by matching the file name and path. The most common example of this would be if you want to add your own styles or change the favicon.  
+When using portfolYOU as a theme means you can take advantage of the file overriding method. This allows you to overwrite any file in this theme with your own custom file, simply by matching the file name and path. The most common example of this would be if you want to add your own styles or change the favicon.
 To change the favicon for example just generate your own using [favicon](https://favicon.io/) or any other tool. Copy your new `favicon.ico` file into your own project with the same file path `assets/favicon.ico`.
 
 ## Adding Content
@@ -211,7 +205,7 @@ external_url: https://google.com/
   1. Add skills to the file using the previously mentioned method.
   1. Open `pages/about.md`.
   1. Add the following lines to the skills section between `<div class="row">` and `</div>`:
-  
+
      ```liquid
      {% raw %}{% include skills.html title="Category_Name Skills" source=site.data.category_name-skills %}{% endraw %}
      ```
