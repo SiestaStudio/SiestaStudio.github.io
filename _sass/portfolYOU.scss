@@ -1,7 +1,16 @@
 @charset "utf-8";
 
 // Custom Fonts
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@font-face {
+    font-family: "Rubik";
+    src: url("/assets/fonts/rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: "HKGrotesk";
+    src: url("/assets/fonts/hk-grotesk/HKGrotesk-Regular.otf");
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables",
