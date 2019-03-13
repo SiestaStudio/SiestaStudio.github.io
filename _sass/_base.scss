@@ -1,0 +1,65 @@
+html {
+    font-family: "HKGrotesk", sans-serif;
+}
+
+body {
+    font-family: "HKGrotesk", sans-serif;
+    background: $base;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+// Fine Circle Responsive Image
+// Inspired by https://stackoverflow.com/a/6615994/10194811
+#container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+#dummy {
+    padding-top: 100%; /* 1:1 aspect ratio */
+}
+
+#element {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+    object-position: center;
+}
+
+// Footer
+$twitter-hover: #1da1f2;
+$email-hover: #ffffff;
+$github-hover: #333333;
+$footer-foreground: $secondary;
+
+.social {
+    text-decoration: none !important;
+    color: $footer-foreground;
+
+    &.twitter:hover  { color: $twitter-hover; }
+//    &.facebook:hover { color: #3b5998 }
+    &.email:hover    { color: $email-hover; }
+    &.github:hover   { color: $github-hover; }
+//    &.linkedin:hover { color: #007bb5 }
+}

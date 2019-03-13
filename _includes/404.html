@@ -1,0 +1,37 @@
+<!-- 404 page by https://codepen.io/sqfreakz/pen/GJRJOY -->
+
+<div class="wrapper p-5 text-center">
+
+    <div id="clouds">
+        <div class="cloud x1"></div>
+        <div class="cloud x1_5"></div>
+        <div class="cloud x2"></div>
+        <div class="cloud x3"></div>
+        <div class="cloud x4"></div>
+        <div class="cloud x5"></div>
+    </div>
+    <div class="fof-c">
+        <div class="fof">
+            <p>
+                Did I do that?
+            </p>
+        </div>
+        <hr class="fof-hr">
+        <div class="fof-2">
+            <p>
+                We're sorry, the page you requested was not found!
+            </p>
+            <p>
+                If you think we broke something please tell us at:
+                <p>
+                    {% if site.author.email %}
+                    <a class="social email mx-1" href="mailto:{{ site.author.email }}">
+                        <i class="fas fa-1x fa-envelope"></i>{{ site.author.email }}
+                    </a>
+                    {% endif %}
+                </p>
+            </p>
+        </div>
+
+    </div>
+</div>

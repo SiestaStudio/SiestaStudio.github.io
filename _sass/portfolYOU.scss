@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+// Custom Fonts
+
+@font-face {
+    font-family: "HKGrotesk";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assets/fonts/hk-grotesk/HKGrotesk-Bold.otf");
+}
+
+@font-face {
+    font-family: "HKGrotesk";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/assets/fonts/hk-grotesk/HKGrotesk-Regular.otf");
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "variables",
+        "base",
+        "navbar",
+        "projects",
+        "articles",
+        "autumn",
+        "skills",
+        "timeline",
+        "404";

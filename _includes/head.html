@@ -1,48 +1,35 @@
 <head>
-    <meta charset="utf-8">
-    <script type="text/javascript">
-      var host = "{{ site.host }}";
-      if ((host == window.location.host) && (window.location.protocol != "https")) {
-          window.location.protocol = "https";
-      }
 
-    </script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
 
-    <!-- Canonical paths -->
-    <!-- TO BE REVIEWED: Remove extra spaces?-->
-    {% capture canonical %}{{ site.url }}{% if site.permalink contains ".html" %}{{ page.url }}{% else %}{{ page.url | remove: "index.html" | strip }}{% endif %}{% endcapture %}
-    <link href="{% if site.permalink contains ".html" %}{{ page.url | strip }}{% else %}{{ page.url | remove: "index.html" | strip }}{% endif %}" />
-    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <title>{{ site.title }}</title>
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/img/apple-touch-icon.png" | prepend: site.baseurl }}">
-    <link rel="shorcut icon" type="image/png" href="{{ "/assets/img/favicon-32x32.png" | prepend: site.baseurl }}" sizes="32x32">
-    <link rel="shorcut icon" type="image/png" href="{{ "/assets/img/favicon-16x16.png" | prepend: site.baseurl }}" sizes="16x16">
-    <link rel="manifest" href="{{ "/assets/js/manifest.json" | prepend: site.baseurl }}">
-    <link rel="mask-icon" href="{{ "/assets/img/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
+  <!-- Favicons generated in favicon.io -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifesto" href="/site.webmanifest">
+  <!--
+       <link rel="apple-touch-icon" type="image/x-icon" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+       <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+       <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  -->
 
-    <!-- Bootstrap core CSS -->
-    <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <!-- TODO: Check if is really needed to import the whole library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <link href="{{ "/assets/stylesheet/main.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" type="text/css">
 
-    <!-- Cookies policy-->
-    <!-- Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-    <script type="text/javascript">
-      window.cookieconsent_options = {
-      "message":"This website uses cookies to ensure you get the best experience on our website",
-      "dismiss":"Got it!",
-      "learnMore":"More info",
-      "link":null,
-      "theme":"dark-bottom"};
-    </script>
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css">
 
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" type="text/css">
+
 
 </head>

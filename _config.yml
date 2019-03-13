@@ -1,21 +1,36 @@
 ### GENERAL SETTINGS ###
-
-title: "Siesta Studio"
-description: "A Creative Development Studio."
-analytics: "UA-84270577-1" #Google analytics code in the format XX-nnnnnnnn-n
+title: "SIESTA STUDIO"
+description: >-
+  A creative development studio based on Madrid, Spain.
 baseurl: "" #important: start with /
-url: "https://siesta.studio"
+url: "https://siesta.studio/"
 enforce_ssl: "siesta.studio"
+
+repository: "SiestaStudio/SiestaStudio.github.io"
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
+
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 # Sass minification enabled
 sass:
   style: compressed
-  sass_dir: assets/stylesheet/sass
+  #sass_dir: default: _sass
+
+
+# Author Info
+author:
+  name     : Siesta Studio
+  email    : hello@siesta.studio
+  github   : SiestaStudio
+  twitter  : _Siesta_Studio_
+#  linkedin : username
+#  facebook : username
+
+
+analytics: "UA-84270577-1" # Google analytics code in the format XX-nnnnnnnn-n
+
 
 ### CONTACT SETTINGS ###
 
@@ -23,36 +38,41 @@ sass:
 social:
   - title: twitter
     url: https://twitter.com/_siesta_studio_
-  - title: ello
-    url: https://ello.co/_siesta_studio_
   - title: github
     url: https://github.com/siestastudio
+  - title: envelope
+    url: mailto:hello@siesta.studio
+  - title: pinterest
+    url: https://www.pinterest.com/thesiestastudio
+  - title: ello
+    url: https://ello.co/_siesta_studio_
 
 
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines:
-    - 28029, Madrid,
-    - Spain.
 email: hello@siesta.studio
-tel: +34 91 999 99 99
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
-# Members information. Shown on About page.
-members:
-  - name: Aníbal Rey
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:anibalrg@siesta.studio
-      - title: twitter
-        url: http://twitter.com/areyglez
+collections:
+  projects:
+    output: true
+    permalink: /:name
+  cookies:
 
 
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "siesta.studio. A creative development studio based on Madrid, Spain.
-Every afternoon, from 2:30pm to 5pm, we close our doors so our staff can take a nap.
-Please, be patient and understanding."
+# Default values for collections
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+# Posts default permalink
+permalink: articles/:title
+# permalink: /:categories/:title
+
+# Exclude from processing
+exclude:
+ - Gemfile
+ - Gemfile.lock
