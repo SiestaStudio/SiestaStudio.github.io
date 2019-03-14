@@ -7,10 +7,11 @@ weight: 3
 
 # About
 ### {{ site.title }}
-This site is hosted by [GitHub](https://github.com), it's secured and speed up by
-[CloudFlare](https://cloudflare.com) and it's developed with [Jekyll](https://jekyllrb.com).
+This site is developed using [Jekyll](https://jekyllrb.com) and licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-### Credits
+It's hosted by [GitHub](https://github.com) and secured and speed up by [CloudFlare](https://cloudflare.com)
+
+### Credits and licenses
 1. [portfolYOU Jekyll Theme][portfolYOU-Jekyll-Theme] &#8212;-> _Youssef Raafat Nasry._ [MIT License][portfolYOU-License]
 1. [HK Grotesk][HKGrotesk] &#8212;-> _Alfredo Marco Pradil._ [Open Font License][HKGrotesk-License]
 1. [Simple Jekyll Search][Simple-Jekyll-Search] &#8212;-> _Christian Fei._ [MIT License][Simple-Jekyll-Search-License]
