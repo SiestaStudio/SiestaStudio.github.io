@@ -5,6 +5,7 @@ html {
 body {
     font-family: "HKGrotesk", sans-serif;
     background: $base;
+    font-size: large;
 }
 
 .badge {
@@ -52,6 +53,9 @@ $twitter-hover: #1da1f2;
 $email-hover: #ffffff;
 $github-hover: #333333;
 $footer-foreground: $secondary;
+.footer {
+    font-size: medium;
+}
 
 .social {
     text-decoration: none !important;
