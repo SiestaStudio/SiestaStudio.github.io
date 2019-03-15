@@ -17,6 +17,12 @@
 }
 
 
+@font-face {
+    font-family: "HKGrotesk";
+    font-style: italic;
+    src: url("/assets/fonts/hk-grotesk/HKGrotesk-Italic.otf")
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables",
         "base",
