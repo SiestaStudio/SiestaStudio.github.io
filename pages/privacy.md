@@ -9,13 +9,13 @@ We don't collect any kind of information about you.
 
 ## Cookies
 As you probably already now, [HTTP Cookies](https://en.wikipedia.org/wiki/HTTP_cookie), are files downloaded on our computers when we visit a website.
-They are standard in web development and can be used for a number of things such as counting visitors, remember our preferences, forms filled or products
-in our shopping basket, etc.
+They are standard in web development because they provide a kind of memory for websites and can be used for a number of things such as counting visitors,
+remember our preferences, forms filled or products in our shopping basket, etc.
 
 There are harmless cookies that can be  only accessible from the same domain of the page we are visiting. But also,
 there are kind of cookies, called [third-party cookies](https://en.wikipedia.org/wiki/HTTP_cookie#Third-party_cookie),
 set by a website other than the one we are currently on. This kind of cookies can be used for right things,
-such as with websites that have follow or like buttons, blogs with comments served through a separate system, show us ads banners, etc.
+such as with websites that have follow or like buttons, blogs with comments served through a separate system, show us advertisement banners, etc.
 But they also can be used for tracking us. They can be usually used for analyze network traffic, and that is good,
 but also for tracking us by advertising networks, search engines or social networks that we may not expect.
 
