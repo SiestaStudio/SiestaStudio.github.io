@@ -23,6 +23,17 @@ h5 {
 blockquote {
     font-size: x-large;
     font-style: italic;
+    em {
+        font-size: medium;
+    }
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    a {
+        font-size: medium;
+    }
 }
 
 

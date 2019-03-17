@@ -20,14 +20,14 @@ But they also can be used for tracking us. They can be usually used for analyze 
 but also for tracking us by advertising networks, search engines or social networks that we may not expect.
 
 According with the official standards, browsers should be block third party cookies by default, but almost all permit them.
+
 > When it makes an unverifiable transaction, a user agent MUST disable
 > all cookie processing (i.e., MUST NOT send cookies, and MUST NOT
 > accept any received cookies) if the transaction is to a third-party
 > host.
 >
-> &mdash; D. Kristol, L. Montulli
->
-[RFC 2965: HTTP State Management Mechanism, p. 13][RFC 2965]
+> &mdash; _D. Kristol, L. Montulli_
+> [RFC 2965: HTTP State Management Mechanism, p. 13][RFC 2965]
 
 
 [RFC 2965]: https://www.ietf.org/rfc/rfc2965.txt
