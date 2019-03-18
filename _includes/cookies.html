@@ -1,4 +1,4 @@
-<div>
+<div class="container mtb">
     <h3 class="mb-3">{{ include.title }}</h3>
 
     <div class="row">
@@ -7,17 +7,30 @@
         <div class="col-md-2">Expiration</div>
         <div class="col-md-4">Entity</div>
 
-    </div> <!-- table header -->
-    <hr>
+    </div>
+    <div class="row">
+        <div class="col-md-4"><hr></div>
+        <div class="col-md-2"><hr></div>
+        <div class="col-md-2"><hr></div>
+        <div class="col-md-4"><hr></div>
+    </div>
+
     {% for cookie in include.source %}
 
     <div class="row">
         <div class="col-md-4"><code>{{ cookie.name }}</code></div>
         <div class="col-md-2">{{ cookie.type }}</div>
         <div class="col-md-2">{{ cookie.expiration }}</div>
-        <div class="col-md-4"><a href="https://{{ cookie.entity_link}}">{{ cookie.entity }}</a></div>
+        <div class="col-md-4"><a href="https://{{ cookie.link}}">{{ cookie.entity }}</a></div>
     </div>
-    <div class="row">{{ cookie.description }}</div>
+    <div class="row">
+        <div class="col-md-12">
+            {{ cookie.description }}
+            {% if cookie.more != " " %}
+            <a href="https://{{ cookie.more }}">More info</a>
+            {% endif %}
+        </div>
+    </div>
     <br>
     {% endfor %}
 </div>

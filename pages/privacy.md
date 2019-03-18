@@ -5,7 +5,7 @@ permalink: /privacy/
 weight: 4
 ---
 # Privacy and us
-We don't collect any kind of information about you.
+We don't collect or share any kind of information about you.
 
 ## Cookies
 As you probably already now, [HTTP Cookies](https://en.wikipedia.org/wiki/HTTP_cookie), are files downloaded on our computers when we visit a website.
@@ -38,6 +38,4 @@ Please refer to your browser's help for further information.
 As you can notice, viewing the information about this site on your browser, there is a couple of cookies, none of them third-party cookies,
 but same-site cookies.
 
-<div class="container mtb">
 {% include cookies.html title="Cookies in this site" source=site.data.cookies %}
-</div>
