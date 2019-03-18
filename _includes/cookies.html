@@ -1,28 +1,26 @@
 <div class="container mtb">
     <h3 class="mb-3">{{ include.title }}</h3>
 
-
-    <div class="row">
-        <div class="col-md-4">Name</div>
-        <div class="col-md-2">Type</div>
-        <div class="col-md-2">Expiration</div>
-        <div class="col-md-4">Entity</div>
-
-    </div>
-    <div class="row">
-        <div class="col-md-4"><hr></div>
-        <div class="col-md-2"><hr></div>
-        <div class="col-md-2"><hr></div>
-        <div class="col-md-4"><hr></div>
-    </div>
-
     {% for cookie in include.source %}
 
     <div class="row">
-        <div class="col-md-4"><code>{{ cookie.name }}</code></div>
-        <div class="col-md-2">{{ cookie.type }}</div>
-        <div class="col-md-2">{{ cookie.expiration }}</div>
-        <div class="col-md-4">{{ cookie.entity }}</div>
+        <div class="col-md-3">Name:</div>
+        <div class="col-md-9"><strong>{{ cookie.name }}</strong></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">Entity:</div>
+        <div class="col-md-9">{{ cookie.entity }}</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">Type:</div>
+        <div class="col-md-9">{{ cookie.type }}</div>
+    </div>
+
+    <div class="row">
+            <div class="col-md-3">Expiration:</div>
+            <div class="col-md-9">{{ cookie.expiration }}</div>
     </div>
 
     <div class="row">
@@ -30,12 +28,13 @@
             {{ cookie.description }}
             Further information:
             <ul>
-            {% for link in cookie.links %}
+                {% for link in cookie.links %}
                 <li> <a href="https://{{ link }}">{{ link }}</a></li>
-            {% endfor %}
+                {% endfor %}
             </ul>
         </div>
     </div>
 
-    {% endfor %}
+    {% endfor%}
+
 </div>

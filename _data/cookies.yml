@@ -1,9 +1,9 @@
 - name: __cfduid
   type: SameSite
   expiration: 1 year
-  entity: Cloudflare
+  entity: Cloudflare Inc.
   description: >-
-    This cookie is used to identify traffic from trusted computer by CloudFare, the service we currently use to secure and speed up this site.
+    This cookie is used to identify traffic from trusted computer by Cloudflare, the service we currently use to secure and speed up this site.
   links:
     - support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-CloudFlare-cfduid-cookie-do-
     - support.cloudflare.com/hc/en-us/articles/360024915491
@@ -11,7 +11,7 @@
 - name: cookieconsent_dismissed
   type: SameSite
   expiration: 1 year
-  entity: Cookie Consent
+  entity: Silktide Ltd.
   description: >-
     This cookie is used to remember whether you have been informed about our cookies policy.
   links:
