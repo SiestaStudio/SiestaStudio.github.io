@@ -1,6 +1,7 @@
 <div class="container mtb">
     <h3 class="mb-3">{{ include.title }}</h3>
 
+
     <div class="row">
         <div class="col-md-4">Name</div>
         <div class="col-md-2">Type</div>
@@ -21,16 +22,20 @@
         <div class="col-md-4"><code>{{ cookie.name }}</code></div>
         <div class="col-md-2">{{ cookie.type }}</div>
         <div class="col-md-2">{{ cookie.expiration }}</div>
-        <div class="col-md-4"><a href="https://{{ cookie.link}}">{{ cookie.entity }}</a></div>
+        <div class="col-md-4">{{ cookie.entity }}</div>
     </div>
+
     <div class="row">
         <div class="col-md-12">
             {{ cookie.description }}
-            {% if cookie.more != " " %}
-            <a href="https://{{ cookie.more }}">More info</a>
-            {% endif %}
+            Further information:
+            <ul>
+            {% for link in cookie.links %}
+                <li> <a href="https://{{ link }}">{{ link }}</a></li>
+            {% endfor %}
+            </ul>
         </div>
     </div>
-    <br>
+
     {% endfor %}
 </div>
