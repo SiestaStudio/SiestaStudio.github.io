@@ -2,16 +2,17 @@
   type: SameSite
   expiration: 1 year
   entity: Cloudflare
-  link: support.cloudflare.com/hc/en-us/articles/360024915491
   description: >-
     This cookie is used to identify traffic from trusted computer by CloudFare, the service we currently use to secure and speed up this site.
-  more: support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-CloudFlare-cfduid-cookie-do-
+  links:
+    - support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-CloudFlare-cfduid-cookie-do-
+    - support.cloudflare.com/hc/en-us/articles/360024915491
 
 - name: cookieconsent_dismissed
   type: SameSite
   expiration: 1 year
   entity: Cookie Consent
-  link: https://cookieconsent.insites.com
   description: >-
     This cookie is used to remember whether you have been informed about our cookies policy.
-  more:
+  links:
+    - cookieconsent.insites.com
