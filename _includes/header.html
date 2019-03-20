@@ -5,7 +5,12 @@
     <div id="container" class="my-2">
       <div id="dummy"></div>
       <div id="element">
-          <img src="/assets/img/{{ include.image-name }}" alt="picture by {{ include.image-author }} from {{ include.image-source }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+          <img src="/assets/img/{{ include.image-name }}"
+               alt="{{ include.image-title | default: photo }} by {{ include.image-author }} from {{ include.image-source }}"
+               class="circle-image wow animated zoomIn" data-wow-delay=".1s"
+               data-toggle="popover"
+               title="picture by {{ include.image-author }} from {{ include.image-source }}"
+          >
       </div>
     </div>
 
