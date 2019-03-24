@@ -26,9 +26,13 @@
     }
 }
 
+.fixed-top {
+    background-color: #000000d0;
+}
+
 .navbar-brand {
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
     margin-bottom: -14px;
     &::after {
         margin-top: -.25em;
