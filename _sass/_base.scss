@@ -1,9 +1,9 @@
 html {
-    font-family: "HKGrotesk", sans-serif;
+    font-family: "HKGrotesk", Arial, Helvetica, sans-serif;
 }
 
 body {
-    font-family: "HKGrotesk", sans-serif;
+    font-family: "HKGrotesk", Arial, Helvetica, sans-serif;
     background: $base;
     font-size: large;
 }
@@ -86,4 +86,8 @@ $footer-foreground: $secondary;
     &.email:hover    { color: $email-hover; }
     &.github:hover   { color: $github-hover; }
 //    &.linkedin:hover { color: #007bb5 }
+}
+
+code {
+    font-family: "Source Code Pro", monospace;
 }
