@@ -10,12 +10,10 @@
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                {% assign locales = site.data.ui-text["es-ES"] %}
                 {% assign pages = site.html_pages | sort: 'weight' %}
                 {% for site_page in pages %}
                 {% if site_page.title %}
-                .{{ locales["projects"] }}.
-                <a class="nav-item nav-link {% if page.url contains site_page.permalink %} active {% endif %}" href="{% if site_page.external_url %} {{ site_page.external_url }} {% else %} {{ site_page.permalink | relative_url }} {% endif %}">{% assign the_title = site_page.title %}{{ locales[site_page.title] }}</a>
+                <a class="nav-item nav-link {% if page.url contains site_page.permalink %} active {% endif %}" href="{% if site_page.external_url %} {{ site_page.external_url }} {% else %} {{ site_page.permalink | relative_url }} {% endif %}">{{ site_page.title }}</a>
                 {% endif %}
                 {% endfor %}
             </div>
