@@ -77,3 +77,9 @@ permalink: articles/:title
 exclude:
  - Gemfile
  - Gemfile.lock
+ - README.md
+ - LICENSE
+ - /docs
+ - /test
+
+encoding: "utf-8"
