@@ -8,6 +8,7 @@ enforce_ssl: "siesta.studio"
 
 repository: "SiestaStudio/SiestaStudio.github.io"
 
+locale: "en-US"
 # Build settings
 markdown: kramdown
 
