@@ -18,18 +18,14 @@
         </div>
         <hr class="fof-hr">
         <div class="fof-2">
+            <p>We're sorry, the page you requested was not found!</p>
+            <p>If you think we broke something please tell us at:</p>
             <p>
-                We're sorry, the page you requested was not found!
-            </p>
-            <p>
-                If you think we broke something please tell us at:
-                <p>
-                    {% if site.author.email %}
-                    <a class="social email mx-1" href="mailto:{{ site.author.email }}">
-                        <i class="fas fa-1x fa-envelope"></i>{{ site.author.email }}
-                    </a>
-                    {% endif %}
-                </p>
+                {% if site.author.email %}
+                <a class="social email mx-1" href="mailto:{{ site.author.email }}">
+                    <i class="fas fa-1x fa-envelope"></i>{{ site.author.email }}
+                </a>
+                {% endif %}
             </p>
         </div>
 
