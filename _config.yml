@@ -8,7 +8,13 @@ enforce_ssl: "siesta.studio"
 
 repository: "SiestaStudio/SiestaStudio.github.io"
 
-locale: "en-US"
+timezone: Europe/Madrid
+
+locale: "en"
+lang-value:
+  en: ""
+  es: "es"
+
 # Build settings
 markdown: kramdown
 
@@ -70,7 +76,7 @@ defaults:
       layout: "page"
 
 # Posts default permalink
-permalink: articles/:title
+#permalink: articles/:title
 # permalink: /:categories/:title
 
 # Exclude from processing

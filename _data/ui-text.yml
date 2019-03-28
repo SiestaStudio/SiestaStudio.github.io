@@ -1,6 +1,8 @@
 # User interface text and labels
 # English (default)
 en: &DEFAULT_EN
+  description: >-
+    A creative development studio based on Madrid, Spain.
   projects: "Projects"
   articles: "Articles"
   about: "About"
@@ -21,7 +23,9 @@ en-NZ:
 
 # Spanish
 es: &DEFAULT_ES
-  projects: "Projectos"
+  description: >-
+    Un estudio de desarrollo creativo situado en Madrid, España.
+  projects: "Proyectos"
   articles: "Artículos"
   about: "Acerca de"
   privacy: "Privacidad"
