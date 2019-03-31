@@ -13,11 +13,11 @@ Except where otherwise noted, the content on {{ site.title }} is licensed under 
 [CC-BY-4.0-License]: https://creativecommons.org/licenses/by/4.0/
 
 ### Credits
-- [404 svg animated page][404-page] &#8212;-> _A pen by SQFreaKz._ [MIT License][codepen-MIT-License]
+- [404 svg animated page][404-page] &#8212;-> _A pen by SQFreaKz._ [MIT License][MIT-License]
 - [Animate.css][Animate.css] &#8212;-> _Daniel Eden._ [MIT License][MIT-License]
 - [Bootstrap][Bootstrap] &#8212;-> _Bootstrap team and contributors._ [MIT License][MIT-License]
 - [cookie consent][cookie-consent] &#8212;-> _Silktide Ltd._ [MIT License][MIT-License]
-- [CSS3 Animated Skill Progress bar][skills-progress-bar] &#8212;-> _Shah Zobayer Ahmed._ [MIT License][codepen-MIT-License]
+- [CSS3 Animated Skill Progress bar][skills-progress-bar] &#8212;-> _Shah Zobayer Ahmed._ [MIT License][MIT-License]
 - [Font Awesome][Font-Awesome] &#8212;-> _Font Awesome team._ Icons: [CC BY 4.0][CC-BY-4.0-License], fonts: [SIL OFL][HKGrotesk-License], code: [MIT License][MIT-License]
 - [jQuery][jQuery] &#8212;-> _JS Foundation an other contributors._ [MIT License][MIT-License]
 - [HK Grotesk][HKGrotesk] &#8212;-> _Alfredo Marco Pradil._ [SIL Open Font License (OFL)][HKGrotesk-License]
@@ -25,7 +25,7 @@ Except where otherwise noted, the content on {{ site.title }} is licensed under 
 - [portfolYOU Jekyll Theme][portfolYOU-Jekyll-Theme] &#8212;-> _Youssef Raafat Nasry._ [MIT License][portfolYOU-License]
 - [pygments-css][pygments-css] &#8212;-> _Richard Leland._ [Public Domain][pygments-css-License]
 - [Simple Jekyll Search][Simple-Jekyll-Search] &#8212;-> _Christian Fei._ [MIT License][Simple-Jekyll-Search-License]
-- [Vertical Timeline (HTML-SCSS-CSS)][vertical-timeline] &#8212;-> _Based on this video by DevPen (Rateb Habedy)._ [MIT License][codepen-MIT-License]
+- [Vertical Timeline (HTML-SCSS-CSS)][vertical-timeline] &#8212;-> _Based on this video by DevPen (Rateb Habedy)._ [MIT License][MIT-License]
 - [wow.js][wow.js] &#8212;-> _Thomas Grainger._ [MIT License][MIT-License]
 
 
