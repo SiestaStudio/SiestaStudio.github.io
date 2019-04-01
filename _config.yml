@@ -2,10 +2,9 @@
 title: "SIESTA STUDIO"
 description: >-
   A creative development studio based on Madrid, Spain.
-baseurl: "" #important: start with /
+
 url: "https://siesta.studio/"
 enforce_ssl: "siesta.studio"
-
 repository: "SiestaStudio/SiestaStudio.github.io"
 
 timezone: Europe/Madrid
@@ -16,7 +15,11 @@ lang-value:
   es: "es"
 
 # Build settings
-markdown: kramdown
+safe: true
+strict_front_matter: true
+strict_filters: true
+strict_variables: true
+
 
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
@@ -35,31 +38,7 @@ author:
 #  linkedin : username
 #  facebook : username
 
-
-analytics: "UA-84270577-1" # Google analytics code in the format XX-nnnnnnnn-n
-
-
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: twitter
-    url: https://twitter.com/_siesta_studio_
-  - title: github
-    url: https://github.com/siestastudio
-  - title: envelope
-    url: mailto:hello@siesta.studio
-  - title: pinterest
-    url: https://www.pinterest.com/thesiestastudio
-  - title: ello
-    url: https://ello.co/_siesta_studio_
-
-
-email: hello@siesta.studio
-
-
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
 collections:
   projects:
     output: true
@@ -81,11 +60,7 @@ defaults:
 
 # Exclude from processing
 exclude:
- - Gemfile
- - Gemfile.lock
  - README.md
  - LICENSE
  - /docs
  - /test
-
-encoding: "utf-8"
