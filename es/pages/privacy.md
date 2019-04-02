@@ -9,7 +9,7 @@ uid: privacy
 # Privacidad
 Nosotros no guardamos ni compartimos ningún tipo de información sobre ti.
 
-## Cookies
+## _Cookies_
 Como probablemente ya sabrás, las [_cookies_](https://es.wikipedia.org/wiki/Cookie_(informática)), son datos que las web que visitamos almacenan en nuestros ordenadores y les
 proporcionan una memoria que pueden utilizar para muchas cosas. Por ejemplo, recordar nuestras preferencias, formularios que hemos rellenado, los productos de nuestra
 cesta virtual, contar el número de visitantes, etc.

@@ -4,29 +4,29 @@
     {% for cookie in include.source %}
 
     <div class="row">
-        <div class="col-md-3">Name:</div>
+        <div class="col-md-3">{{ site.data.ui-text[page.lang].name }}:</div>
         <div class="col-md-9"><strong>{{ cookie.name }}</strong></div>
     </div>
 
     <div class="row">
-        <div class="col-md-3">Entity:</div>
+        <div class="col-md-3">{{ site.data.ui-text[page.lang].entity }}:</div>
         <div class="col-md-9">{{ cookie.entity }}</div>
     </div>
 
     <div class="row">
-        <div class="col-md-3">Type:</div>
+        <div class="col-md-3">{{ site.data.ui-text[page.lang].type }}:</div>
         <div class="col-md-9">{{ cookie.type }}</div>
     </div>
 
     <div class="row">
-            <div class="col-md-3">Expiration:</div>
-            <div class="col-md-9">{{ cookie.expiration }}</div>
+            <div class="col-md-3">{{ site.data.ui-text[page.lang].expiration }}:</div>
+            <div class="col-md-9">{{ cookie.expiration[page.lang] }}</div>
     </div>
 
     <div class="row">
         <div class="col-md-12">
-            {{ cookie.description }}
-            Further information:
+        {{ cookie.description[page.lang] }}
+            {{ site.data.ui-text[page.lang].more_info }}:
             <ul>
                 {% for link in cookie.links %}
                 <li> <a href="https://{{ link }}">{{ link }}</a></li>

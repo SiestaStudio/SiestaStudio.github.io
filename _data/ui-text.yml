@@ -8,6 +8,13 @@ en: &DEFAULT_EN
   about: "About"
   privacy: "Privacy"
   search_articles : "Search articles..."
+# Cookies
+  name: "Name"
+  entity: "Entity"
+  type: "Type"
+  expiration: "Expiration"
+  more_info: "Further information"
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -30,6 +37,13 @@ es: &DEFAULT_ES
   about: "Acerca de"
   privacy: "Privacidad"
   search_articles: "Buscar artículos..."
+# Cookies
+  name: "Nombre"
+  entity: "Entidad"
+  type: "Tipo"
+  expiration: "Expiración"
+  more_info: "Más información"
+
 es-ES:
   <<: *DEFAULT_ES
 es-MX:

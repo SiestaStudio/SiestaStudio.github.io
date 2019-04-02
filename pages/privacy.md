@@ -37,7 +37,6 @@ According with the official standards, browsers should be block third party cook
 The good news is that all main browsers provide ways to control cookies at any time, allowing, blocking or removing them.
 Please refer to your browser's help for further information.
 
-As you can notice, viewing the information about this site on your browser, there is a couple of cookies, none of them third-party cookies,
-but same-site cookies.
+As you can notice, viewing the information about this site on your browser, we use the following third-party cookies:
 
 {% include cookies.html title="Cookies in this site" source=site.data.cookies %}
