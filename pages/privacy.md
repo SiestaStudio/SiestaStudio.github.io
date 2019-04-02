@@ -3,6 +3,8 @@ layout: page
 title: Privacy
 permalink: /privacy/
 weight: 4
+#lang: en
+uid: privacy
 ---
 # Privacy and us
 We don't collect or share any kind of information about you.

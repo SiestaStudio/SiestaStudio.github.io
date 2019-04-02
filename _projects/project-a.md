@@ -3,6 +3,9 @@ name: Prototype for an educational app to train
 tools: [Godot Engine, GDScript]
 image: https://thenextscoop.com/wp-content/uploads/2019/01/web-design-2019.jpg
 description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+uid: project-a
+lang: en
+layout: page
 ---
 
 # Project A

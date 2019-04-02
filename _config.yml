@@ -38,25 +38,20 @@ author:
 #  linkedin : username
 #  facebook : username
 
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-collections:
-  projects:
-    output: true
-    permalink: /:name
-  cookies:
-
-
-# Default values for collections
 defaults:
   - scope:
       path: ""
-      type: "projects"
     values:
-      layout: "page"
+      author: "Siesta Studio"
+      lang: "en"
+      base-url: "/"
+  - scope:
+      path: "es"
+    values:
+      lang: "es"
+      base-url: "/es/"
+#      permalink: "/es/:title"
 
-# Posts default permalink
-#permalink: articles/:title
-# permalink: /:categories/:title
 
 # Exclude from processing
 exclude:
@@ -64,3 +59,9 @@ exclude:
  - LICENSE
  - /docs
  - /test
+
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name

@@ -1,5 +1,5 @@
 - name: __cfduid
-  type: SameSite
+  type: Third-party
   expiration: 1 year
   entity: Cloudflare Inc.
   description: >-
@@ -9,7 +9,7 @@
     - support.cloudflare.com/hc/en-us/articles/360024915491
 
 - name: cookieconsent_dismissed
-  type: SameSite
+  type: Same-site
   expiration: 1 year
   entity: Silktide Ltd.
   description: >-
