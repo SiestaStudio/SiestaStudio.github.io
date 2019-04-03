@@ -25,7 +25,7 @@
 [HKGrotesk-License]: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 [jQuery]: https://github.com/jquery/jquery
 [MIT-License]: https://opensource.org/licenses/MIT
-[multilingual-jekyll]: http://chocanto.me/2016/04/16/jekyll-multilingual.html
+[multilingual-jekyll]: https://github.com/Chocanto/Chocanto.github.io/blob/master/_posts/2016-04-16-jekyll-multilingual.md
 [portfolYOU-Jekyll-Theme]: https://github.com/YoussefRaafatNasry/portfolYOU
 [portfolYOU-License]: https://github.com/YoussefRaafatNasry/portfolYOU/blob/master/LICENSE
 [pygments-css]: https://github.com/richleland/pygments-css
