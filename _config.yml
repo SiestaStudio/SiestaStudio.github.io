@@ -50,8 +50,6 @@ defaults:
     values:
       lang: "es"
       base-url: "/es/"
-#      permalink: "/es/:title"
-
 
 # Exclude from processing
 exclude:
@@ -60,8 +58,8 @@ exclude:
  - /docs
  - /test
 
-
+# Projects
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+#    permalink: /projects/:name

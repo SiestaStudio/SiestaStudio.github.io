@@ -5,6 +5,7 @@ image: https://thenextscoop.com/wp-content/uploads/2019/01/web-design-2019.jpg
 description: Este proyecto tiene una página individual de muesta, no sólo un enlace directo al sitio web o al repositorio. Ahora tienes más espacio para describir este increible proyecto!
 uid: project-a
 lang: es
+permalink: /*lang/
 ---
 
 # ProyectoA
