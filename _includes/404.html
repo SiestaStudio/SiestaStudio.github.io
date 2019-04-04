@@ -1,33 +1,67 @@
 <!-- Clouds taken from https://codepen.io/sqfreakz/pen/GJRJOY -->
 
-<div class="wrapper p-5 text-center">
+<body class="fof-body container">
+    <script>
+     setInterval(function() {
+         var el = document.querySelector("#counter");
+         var count = el.textContent * 1 - 1;
+         el.textContent = count;
+         if (count <= 0) {
+             window.location.replace("{{ site.url }}");
+         }
+     }, 1000);
+    </script>
 
-    <div id="clouds">
-        <div class="cloud x1"></div>
-        <div class="cloud x1_5"></div>
-        <div class="cloud x2"></div>
-        <div class="cloud x3"></div>
-        <div class="cloud x4"></div>
-        <div class="cloud x5"></div>
-    </div>
-    <div class="fof-c">
-        <div class="fof">
-            <p>
-                Did I do that?
-            </p>
+
+    <div class="wrapper p-5 text-center">
+
+        <div id="clouds">
+            <div class="cloud x1"></div>
+            <div class="cloud x1_5"></div>
+            <div class="cloud x2"></div>
+            <div class="cloud x3"></div>
+            <div class="cloud x4"></div>
+            <div class="cloud x5"></div>
         </div>
-        <hr class="fof-hr">
-        <div class="fof-2">
-            <p>We're sorry, the page you requested was not found!</p>
-            <p>If you think we broke something please tell us at:</p>
+
+        <div class="fof-c">
+            <div class="fof">
+                <p>
+                    {{ site.data.ui-text[page.lang].fof.msg_0 }}
+                </p>
+            </div>
+            <hr class="fof-hr">
+            <div class="fof-2">
+                <p>
+                    {{ site.data.ui-text[page.lang].fof.msg_1 }}<br>
+                    {{ site.data.ui-text[page.lang].fof.msg_2 }}:
+                </p>
+                <p>
+                    {% if site.author.email %}
+                    <a class="social email mx-1" href="mailto:{{ site.author.email }}">
+                        <i class="fas fa-1x fa-envelope"></i>{{ site.author.email }}
+                    </a>
+                    {% endif %}
+                </p>
+            </div>
+
+        </div>
+
+        <div>
             <p>
-                {% if site.author.email %}
-                <a class="social email mx-1" href="mailto:{{ site.author.email }}">
-                    <i class="fas fa-1x fa-envelope"></i>{{ site.author.email }}
+                <a class="m-1 btn btn-outline-dark btn-3 " href="{{ site.baseurl }}">
+                    {{ site.data.ui-text[page.lang].fof.return_to }} {{ site.title }}
                 </a>
-                {% endif %}
+
+            </p>
+            <p>
+                {{ site.data.ui-text[page.lang].fof.redirected }} {{ site.title }} {{ site.data.ui-text[page.lang].fof.in }}
+                <span id="counter">10</span>
+                {{ site.data.ui-text[page.lang].fof.seconds }}.
             </p>
         </div>
 
     </div>
-</div>
+
+
+</body>

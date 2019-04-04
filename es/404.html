@@ -1,39 +1,14 @@
 ---
+uid: 404
+lang: es
+permalink: /es/404.html
 ---
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="{{ page.lang }}">
 
     {% include head.html %}
 
-    <body class="fof-body container">
-        <script>
-         setInterval(function() {
-             var el = document.querySelector("#counter");
-             var count = el.textContent * 1 - 1;
-             el.textContent = count;
-             if (count <= 0) {
-                 window.location.replace("{{ site.url }}");
-             }
-         }, 1000);
-        </script>
-        {% include 404.html %}
-    </body>
-
-    <footer class="mt-auto py-3 text-center">
-        <div class="fof-c">
-            <p>
-                <a class="m-1 btn btn-outline-dark btn-3 " href="{{ site.baseurl }}">
-                    Volver a {{ site.title }}
-                </a>
-
-            </p>
-            <p>
-                Vas a ser redirigido a {{ site.title }} en
-                <span id="counter">10</span>
-                segundos.
-            </p>
-        </div>
-    </footer>
+    {% include 404.html %}
 
 </html>

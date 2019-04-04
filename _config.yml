@@ -1,18 +1,11 @@
 ### GENERAL SETTINGS ###
 title: "SIESTA STUDIO"
-description: >-
-  A creative development studio based on Madrid, Spain.
-
+description: "A creative development studio based on Madrid, Spain."
 url: "https://siesta.studio/"
 enforce_ssl: "siesta.studio"
 repository: "SiestaStudio/SiestaStudio.github.io"
 
 timezone: Europe/Madrid
-
-locale: "en"
-lang-value:
-  en: ""
-  es: "es"
 
 # Build settings
 safe: true

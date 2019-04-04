@@ -1,39 +1,13 @@
 ---
+uid: 404
+lang: en
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
 
     {% include head.html %}
 
-    <body class="fof-body container">
-        <script>
-         setInterval(function() {
-             var el = document.querySelector("#counter");
-             var count = el.textContent * 1 - 1;
-             el.textContent = count;
-             if (count <= 0) {
-                 window.location.replace("{{ site.url }}");
-             }
-         }, 1000);
-        </script>
-        {% include 404.html %}
-    </body>
-
-    <div class="mt-auto py-3 text-center">
-        <div class="fof-c">
-            <p>
-                <a class="m-1 btn btn-outline-dark btn-3 " href="{{ site.baseurl }}">
-                    {{ site.data.ui-text[page.lang].return_to }} {{ site.title }}
-                </a>
-
-            </p>
-            <p>
-                {{ site.data.ui-text[page.lang].redirected }} {{ site.title }} {{ site.data.ui-text[page.lang].in }}
-                <span id="counter">10</span>
-                {{ site.data.ui-text[page.lang].seconds }}.
-            </p>
-        </div>
-    </div>
+    {% include 404.html %}
 
 </html>
