@@ -3,11 +3,10 @@ layout: page
 title: Privacidad
 permalink: /es/privacy/
 weight: 4
-lang: es
 uid: privacy
 ---
 # Privacidad
-Nosotros no guardamos ni compartimos ningún tipo de información sobre ti.
+Nosotros no guardamos, y por tanto, no compartimos ningún tipo de información sobre ti.
 
 ## _Cookies_
 Como probablemente ya sabrás, las [_cookies_](https://es.wikipedia.org/wiki/Cookie_(informática)), son datos que las web que visitamos almacenan en nuestros ordenadores y les
@@ -20,7 +19,7 @@ que no están en el mismo servidor que la web que estamos visitando). Este tipo 
 mostrar comentarios, anuncios etc. Pero también sirven para rastrearnos. Normalmente para analizar el tráfico de red en la propia web, pero también
 para identificarnos como usuarios/clientes por redes de anuncios, motores de búsqueda o redes sociales.
 
-Los estándares oficiales dicen que los navegadores deberían bloquear por defecto las _cookies_ de terceros, pero casi todos lo permiten, ya que de uso estándar en el desarrollo de sitios web.
+Los estándares oficiales dicen que los navegadores deberían bloquear por defecto las _cookies_ de terceros, pero casi todos las permiten, ya que son de uso estándar en el desarrollo de sitios web.
 > When it makes an unverifiable transaction, a user agent MUST disable
 > all cookie processing (i.e., MUST NOT send cookies, and MUST NOT
 > accept any received cookies) if the transaction is to a third-party
