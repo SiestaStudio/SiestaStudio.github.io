@@ -31,6 +31,8 @@ author:
 #  linkedin : username
 #  facebook : username
 
+permalink: /:categories/:year/:month/:title:output_ext
+
 defaults:
   - scope:
       path: ""
