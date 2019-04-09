@@ -1,7 +1,13 @@
 .search-box {
     box-shadow:2px !important;
+    border-radius: $rounded-borders-small;
 }
 
+.input-group-append {
+    .input-group-text {
+        border-radius: $rounded-borders-small;
+    }
+}
 .article.card {
     border-radius: $rounded-borders;
     text-decoration: none!important;
