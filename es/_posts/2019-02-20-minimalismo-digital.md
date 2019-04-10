@@ -1,6 +1,6 @@
 ---
 title: Minimalismo Digital
-tags: [Social Media, Minimalism, Technology]
+tags: [Medios sociales, Minimalismo, Tecnología]
 uid: digital-minimalism
 #lang: es
 style:
