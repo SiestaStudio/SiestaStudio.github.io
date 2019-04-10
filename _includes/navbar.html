@@ -1,13 +1,12 @@
 <nav class="navbar navbar-expand-lg {{ include.config }}">
     <div class="container">
         {% assign title-main = site.title | split: " " %}
-        <a class="navbar-brand navbar-dark" href="{{ site.baseurl }}/">{{ title-main[0] }} {{ title-main[1] }}</a>
+        <a class="navbar-brand navbar-dark" href="{{ site.baseurl }}/{{page.lang}}">{{ title-main[0] }} {{ title-main[1] }}</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
@@ -27,13 +26,18 @@
                 {% assign posts=site.pages | where: "uid", page.uid | sort: "lang" %}
                 {% endif %}
 
-                {% for post in posts %}
-
-                {% if post.lang != page.lang %}
-                <a class="m-1 btn btn-outline-info bnt-sm" href="{{ site.base-url }}{{ post.url }}">{{ post.lang }}</a>
-                {% endif %}
-                {% endfor %}
+                <div class="btn-group">
+                    <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ page.lang }}
+                    </button>
+                    <div class="dropdown-menu">
+                        {% for post in posts %}
+                        {% if post.lang != page.lang %}
+                        <a class="dropdown-item" href="{{ site.base-url }}{{ post.url }}">{{ site.data.ui-text[post.lang].lang }}</a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
-       </div>
-    </div>
+        </div>
 </nav>

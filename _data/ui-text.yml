@@ -2,6 +2,7 @@
 ################################################################################
 # English (default)
 en: &DEFAULT_EN
+  lang: English
   description: >-
     A creative development studio based on Madrid, Spain.
   projects: "Projects"
@@ -42,6 +43,7 @@ en-NZ:
 ################################################################################
 # Spanish
 es: &DEFAULT_ES
+  lang: Spanish
   description: >-
     Un estudio de desarrollo creativo situado en Madrid, España.
   projects: "Proyectos"
@@ -60,7 +62,7 @@ es: &DEFAULT_ES
     msg_0: "¿He sido yo?"
     msg_1: "Lo sentimos, no se ha encontrado la página que has solicitado."
     msg_2: "Si crees que hemos estropeado algo, por favor háznoslo saber en"
-    return_to: "Volver a"
+    retur6n_to: "Volver a"
     redirected: "Se va a cargar nuestra página principal"
     in: en
     seconds: segundos
