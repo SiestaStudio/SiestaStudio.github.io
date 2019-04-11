@@ -2,15 +2,15 @@
 name: Prototype for an educational app to train
 tools: [Godot Engine, GDScript]
 image: https://thenextscoop.com/wp-content/uploads/2019/01/web-design-2019.jpg
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+description: Este proyecto tiene una página individual de muesta, no sólo un enlace directo al sitio web o al repositorio. Ahora tienes más espacio para describir este increible proyecto!
 uid: project-a
-lang: en
-layout: page
+lang: es
+permalink: /es/projects/project-a
 ---
 
-# Project A
+# ProyectoA
 
-Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
+Proyecto A es un proyecto increíble! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
 
 ![](https://techcrunch.com/wp-content/uploads/2018/05/screen-shot-2018-05-01-at-11-30-23-am.png?w=1390&crop=1)
 

@@ -1,4 +1,5 @@
 * TODO: Fix About/Licence
-Arrows are not seen properly in Chrome on mobile.
+- Arrows are not seen properly in Chrome on mobile.
+- Review coockies type and cookieonsent_dismissed configuration
 * TODO: RSS
 *

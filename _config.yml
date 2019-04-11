@@ -1,16 +1,16 @@
 ### GENERAL SETTINGS ###
 title: "SIESTA STUDIO"
-description: >-
-  A creative development studio based on Madrid, Spain.
-baseurl: "" #important: start with /
+description: "A creative development studio based on Madrid, Spain."
 url: "https://siesta.studio/"
 enforce_ssl: "siesta.studio"
-
 repository: "SiestaStudio/SiestaStudio.github.io"
 
-locale: "en"
 # Build settings
-markdown: kramdown
+safe: true
+strict_front_matter: true
+strict_filters: true
+strict_variables: true
+
 
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
@@ -22,64 +22,39 @@ sass:
 
 # Author Info
 author:
-  name     : Siesta Studio
-  email    : hello@siesta.studio
-  github   : SiestaStudio
-  twitter  : _Siesta_Studio_
+  name: Siesta Studio
+  email: hello@siesta.studio
+  github: SiestaStudio
+  twitter: _Siesta_Studio_
+  ello: _siesta_studio_
+  pinterest: thesiestastudio
 #  linkedin : username
 #  facebook : username
 
+permalink: /:categories/:year/:month/:title:output_ext
 
-analytics: "UA-84270577-1" # Google analytics code in the format XX-nnnnnnnn-n
-
-
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: twitter
-    url: https://twitter.com/_siesta_studio_
-  - title: github
-    url: https://github.com/siestastudio
-  - title: envelope
-    url: mailto:hello@siesta.studio
-  - title: pinterest
-    url: https://www.pinterest.com/thesiestastudio
-  - title: ello
-    url: https://ello.co/_siesta_studio_
-
-
-email: hello@siesta.studio
-
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-
-collections:
-  projects:
-    output: true
-    permalink: /:name
-  cookies:
-
-
-# Default values for collections
 defaults:
   - scope:
       path: ""
-      type: "projects"
     values:
-      layout: "page"
-
-# Posts default permalink
-permalink: articles/:title
-# permalink: /:categories/:title
+      author: "Siesta Studio"
+      lang: "en"
+      base-url: "/"
+  - scope:
+      path: "es"
+    values:
+      lang: "es"
+      base-url: "/es/"
 
 # Exclude from processing
 exclude:
- - Gemfile
- - Gemfile.lock
  - README.md
  - LICENSE
  - /docs
  - /test
 
-encoding: "utf-8"
+# Projects
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name

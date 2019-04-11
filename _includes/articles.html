@@ -1,12 +1,12 @@
 <div class="card-group mt-2">
-
-  {% for post in site.posts %}
+  {% assign posts = site.posts | where: "lang", page.lang %}
+  {% for post in posts %}
 
     {% comment %} Default Styles {% endcomment %}
     {% assign card_style = '' %}
     {% assign text_style = 'text-dark' %}
     {% assign badge_style = 'badge-dark' %}
-    
+
     {% comment %} Update Styles {% endcomment %}
     {% if post.style == 'fill' %}
       {% assign card_style = post.color | prepend: 'bg-' %}

@@ -1,18 +1,24 @@
 - name: __cfduid
-  type: SameSite
-  expiration: 1 year
+  type: Third-party
+  expiration:
+    en: 1 year
+    es: 1 año
   entity: Cloudflare Inc.
-  description: >-
-    This cookie is used to identify traffic from trusted computer by Cloudflare, the service we currently use to secure and speed up this site.
+  description:
+    en: This cookie is used to identify traffic from trusted computer by Cloudflare, the service we currently use to secure and speed up this site.
+    es: Cloudflare, el servicio que usamos para proporcionar seguridad y velocidad a nuestra web,  usa esta cookie para identificar ordenadores de confianza.
   links:
     - support.cloudflare.com/hc/en-us/articles/200170156-What-does-the-CloudFlare-cfduid-cookie-do-
     - support.cloudflare.com/hc/en-us/articles/360024915491
 
-- name: cookieconsent_dismissed
-  type: SameSite
-  expiration: 1 year
+- name: cookieconsent_status
+  type: Third-party
+  expiration:
+    en: 1 year
+    es: 1 año
   entity: Silktide Ltd.
-  description: >-
-    This cookie is used to remember whether you have been informed about our cookies policy.
+  description:
+    en: This cookie is used to remember whether you have been informed about our cookies policy.
+    es: Esta cookie se usa para recordar si has sido informado sobre nuestra política de cookies.
   links:
     - cookieconsent.insites.com

@@ -1,11 +1,32 @@
 # User interface text and labels
+################################################################################
 # English (default)
 en: &DEFAULT_EN
+  lang: English
+  description: >-
+    A creative development studio based on Madrid, Spain.
   projects: "Projects"
   articles: "Articles"
   about: "About"
   privacy: "Privacy"
-  search_articles : "Search articles..."
+  search_articles : "Search articles"
+# Cookies
+  name: "Name"
+  entity: "Entity"
+  type: "Type"
+  expiration: "Expiration"
+  more_info: "Further information"
+#404
+  fof:
+    msg_0: "Did I do that?"
+    msg_1: "We're sorry, the page you requested was not found!"
+    msg_2: "If you think we broke something, please tell us at"
+    return_to: "Return to"
+    redirected: "You'll be redirected to"
+    in: in
+    seconds: seconds
+
+# Alias
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -19,13 +40,34 @@ en-IE:
 en-NZ:
   <<: *DEFAULT_EN
 
+################################################################################
 # Spanish
 es: &DEFAULT_ES
-  projects: "Projectos"
+  lang: Spanish
+  description: >-
+    Un estudio de desarrollo creativo situado en Madrid, España.
+  projects: "Proyectos"
   articles: "Artículos"
   about: "Acerca de"
   privacy: "Privacidad"
-  search_articles: "Buscar artículos..."
+  search_articles: "Buscar artículos"
+# Cookies
+  name: "Nombre"
+  entity: "Entidad"
+  type: "Tipo"
+  expiration: "Expiración"
+  more_info: "Más información"
+#404
+  fof:
+    msg_0: "¿He sido yo?"
+    msg_1: "Lo sentimos, no se ha encontrado la página que has solicitado."
+    msg_2: "Si crees que hemos estropeado algo, por favor háznoslo saber en"
+    retur6n_to: "Volver a"
+    redirected: "Se va a cargar nuestra página principal"
+    in: en
+    seconds: segundos
+
+# Alias
 es-ES:
   <<: *DEFAULT_ES
 es-MX:

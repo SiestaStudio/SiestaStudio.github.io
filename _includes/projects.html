@@ -1,6 +1,7 @@
 <div class="card-columns m-3 mt-5">
 
-  {% for project in site.projects %}
+  {% assign projects = site.projects | where: "lang", page.lang %}
+  {% for project in projects %}
 
     {% comment %} Determine Project URL {% endcomment %}
     {% if project.external_url %}

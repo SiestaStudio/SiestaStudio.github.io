@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 weight: 3
+uid: about
 ---
 
 # About
@@ -50,7 +51,7 @@ Except where otherwise noted, the content on {{ site.title }} is licensed under 
 [vertical-timeline-License]: https://blog.codepen.io/legal/licensing/
 [wow.js]: https://github.com/graingert/WOW/
 
-
+{% include credits.md %}
 
 
 ### {{ site.title }}&apos; tasks
