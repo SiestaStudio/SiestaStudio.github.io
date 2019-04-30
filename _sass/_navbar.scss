@@ -1,15 +1,15 @@
 .link-after {
     content: '';
     display: block;
-    height: .15em;
-    background: $primary;
+    height: .1em;
+    background: #e24005;
 }
 
 .nav-link, .navbar-brand {
     &::after {
         @extend .link-after;
         width: 0;
-        transition: width .35s;
+        transition: width .2s;
     }
 
     &:hover::after {
