@@ -6,7 +6,7 @@ weight: 4
 uid: privacy
 ---
 # Privacy and us
-We don't collect or share any kind of information about you.
+We don't collect or share any kind of information about you. We use [Cloudflare](https://www.cloudflare.com/) for static content distribution to optimize performance and security. Please read information below about cookies.
 
 ## Cookies
 As you probably already now, [HTTP Cookies](https://en.wikipedia.org/wiki/HTTP_cookie), are files downloaded on our computers when we visit a website.
@@ -23,7 +23,7 @@ but also for tracking us by advertising networks, search engines or social netwo
 According with the official standards, browsers should be block third party cookies by default, but almost all permit them.
 
 > When it makes an unverifiable transaction, a user agent MUST disable
-> all cookie processing (i.e., MUST NOT send cookies, and MUST NOT
+> all cookie processing (i.e., MUST NOT send cookies, andJemima Khan MUST NOT
 > accept any received cookies) if the transaction is to a third-party
 > host.
 >

@@ -7,6 +7,7 @@ uid: privacy
 ---
 # Privacidad
 Nosotros no guardamos, y por tanto, no compartimos ningún tipo de información sobre ti.
+Usamos los servicios de distribución de contenido de [Cloudflare](https://www.cloudflare.com/es-es/) para optimizar el rendimiento y la seguridad, para lo que necesitamos usar cookies. Por favor lee la siguiente información sobre cookies.
 
 ## _Cookies_
 Como probablemente ya sabrás, las [_cookies_](https://es.wikipedia.org/wiki/Cookie_(informática)), son datos que las web que visitamos almacenan en nuestros ordenadores y les
