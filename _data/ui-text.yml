@@ -43,7 +43,7 @@ en-NZ:
 ################################################################################
 # Spanish
 es: &DEFAULT_ES
-  lang: Spanish
+  lang: Español
   description: >-
     Un estudio de desarrollo creativo situado en Madrid, España.
   projects: "Proyectos"
