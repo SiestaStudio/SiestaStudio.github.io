@@ -32,7 +32,7 @@ Los estándares oficiales dicen que los navegadores deberían bloquear por defec
 
 [RFC 2965]: https://www.ietf.org/rfc/rfc2965.txt
 
-La buena noticia es que todos los navegadores más importantes tienen formas de control para controlar las cookies en cualquier momento, permitiéndolas,
+La buena noticia es que todos los navegadores más importantes permiten controlar las cookies en cualquier momento, permitiéndolas,
 bloqueándolas o eliminándolas. Por favor, comprueba la ayuda de tu navegador para obtener más información.
 
 Como puedes comprobar en la información sobre nuestra web en tu navegador, usamos sólo este par de cookies:
