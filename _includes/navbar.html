@@ -31,10 +31,13 @@
                         {{ page.lang }}
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
-                        {% for post in posts %}
-                        {% if post.lang != page.lang %}
-                        <a class="dropdown-item" href="{{ site.base-url }}{{ post.url }}">{{ site.data.ui-text[post.lang].lang }}</a>
-                        {% endif %}
+                        {% comment %}Combine all collections and find matches by uid{% endcomment %}
+                        {% assign all_docs = site.pages | concat: site.posts | concat: site.projects %}
+                        {% assign translations = all_docs | where: "uid", page.uid | sort: "lang" %}
+                        {% for doc in translations %}
+                            {% if doc.lang != page.lang %}
+                            <a class="dropdown-item" href="{{ site.base-url }}{{ doc.url }}">{{ site.data.ui-text[doc.lang].lang }}</a>
+                            {% endif %}
                         {% endfor %}
                     </div>
                 </div>
