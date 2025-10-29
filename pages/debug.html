@@ -1,0 +1,19 @@
+---
+layout: page
+title: Debug
+permalink: /debug/
+uid: debug
+ref: debug
+---
+
+<pre>
+Site URL: {{ site.url }}
+Site Time: {{ site.time }}
+
+Pages: {{ site.pages | size }}
+Posts: {{ site.posts | size }}
+Collections: {{ site.collections | size }}
+
+Current Page:
+{{ page | jsonify }}
+</pre>
