@@ -3,7 +3,7 @@ name: Mencal, the Mental Calculation Trainer
 tools: [Kivy, Python, SQLite]
 image: /assets/img/gayatri-malhotra-1278082-unsplash.jpg
 description: Mencal is an educational app to train mental calculation at your ouwn pace.
-ref: mencal
+uid: mencal
 lang: en
 layout: page
 ---
