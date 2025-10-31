@@ -1,6 +1,6 @@
 ---
 title: Beneficios del cálculo mental
-tags: [Cerebro, Matemátocas, Mejora, Salud]
+tags: [Cerebro, Matemáticas, Mejora, Salud]
 uid: mental-calculation-benefits
 style:
 color: 
