@@ -17,7 +17,7 @@ Mental arithmetic is a powerful exercise for the brain, offering a wide range of
 
 **1. Working memory training**
 
-Mental arithmetic is a demanding exercise for [working memory](https://en.wikipedia.org/wiki/Working_memory). This is the brain's notebook, where we temporarily store and manipulate information. When you calculate `78 x 9` in your head, you are not only remembering a piece of information, but you are also breaking the problem down into steps (e.g., `70 x 9 + 8 x 9`, or `80 x 9 - 2 x 9`), storing the intermediate totals, and combining them to get the final answer. This process strengthens the neural pathways in your working memory, making it more efficient not only for math, but also for following complex instructions, reasoning, and learning.
+Mental arithmetic is a demanding exercise for [working memory](https://en.wikipedia.org/wiki/Working_memory). This is the brain's notebook, where we temporarily store and manipulate information. When you calculate `78 x 9` in your head, you are not only remembering a piece of information, but you are also breaking the problem down into steps (e.g., `70 x 9 + 8 x 9`, or `80 x 9 - 2 x 9`), storing the intermediate totals, and combining them to get the final answer. This process strengthens the neural pathways in your working memory, making it more efficient not only for math, but also for following complex instructions, reasoning and learning.
 
 **2. Increase concentration and attention**
 
