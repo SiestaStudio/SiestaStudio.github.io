@@ -30,7 +30,6 @@ La aritmética mental también entrena las habilidades para resolver problemas, 
 
 **Referencias**
 
-- [Human brain representations of internally generated outcomes of approximate](https://doi.org/10.1038/s41467-024-44810-5) calculation revealed by ultra-high-field brain imaging. Nat Commun 15, 572 (2024). Czajko, S., Vignaud, A. & Eger, E.
-- [Dissociating neural correlates of cognitive components in mental calculation](https://doi.org/10.1093/cercor/11.4.350). Cerebral cortex (New York, N.Y. : 1991), 11(4), 350–359. Gruber, O., Indefrey, P., Steinmetz, H., & Kleinschmidt, A. (2001). 
-- [Arithmetic and the brain. Current opinion in neurobiology](https://doi.org/10.1016/j.conb.2004.03.008), 14(2), 218-224. Dehaene, S., Molko, N., Cohen, L., & Wilson, A. J. (2004). 
-
+- [Human brain representations](https://doi.org/10.1038/s41467-024-44810-5) of internally generated outcomes of approximate calculation revealed by ultra-high-field brain imaging. Nat Commun 15, 572 (2024). Czajko, S., Vignaud, A. & Eger, E.
+- Dissociating neural correlates of [cognitive components in mental calculation](https://doi.org/10.1093/cercor/11.4.350). Cerebral cortex (New York, N.Y. : 1991), 11(4), 350–359. Gruber, O., Indefrey, P., Steinmetz, H., & Kleinschmidt, A. (2001). 
+- [Arithmetic and the brain.](https://doi.org/10.1016/j.conb.2004.03.008) Current opinion in neurobiology], 14(2), 218-224. Dehaene, S., Molko, N., Cohen, L., & Wilson, A. J. (2004). 
