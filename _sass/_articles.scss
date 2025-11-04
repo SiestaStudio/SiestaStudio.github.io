@@ -82,7 +82,7 @@
     }
 
     pre {
-        background: $light;
+        background: #abb;
         border: 1px solid #ddd;
         color: $dark;
         font-family: monospace;
@@ -98,8 +98,8 @@
     }
 
     code.highlighter-rouge {
-        background-color: $light;
-        color: $dark;
+        background-color: $dark;
+        color: $light;
         border-radius: 3px;
         margin: 0;
         padding: .2em .65em;
